@@ -19,6 +19,8 @@
     "vite": "^8.1.3"
   },
   "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^7.3.0",
+    "@fortawesome/svelte-fontawesome": "^0.2.4",
     "maplibre-gl": "^5.24.0",
     "svelte-maplibre": "^1.3.0"
   }

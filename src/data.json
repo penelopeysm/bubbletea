@@ -195,12 +195,172 @@
         "lastVisited": "sometime August 2024",
         "comments": ""
     },
-
+    {
+        "lngLat": [0.521504, 51.2732],
+        "name": "T4 Maidstone",
+        "address": "https://maps.app.goo.gl/fPzW7fhWeL41m1T58",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [-2.237781, 53.480271],
+        "name": "T4 Manchester",
+        "address": "https://maps.app.goo.gl/YhqWz4Zgc72ufKEm6",
+        "lastVisited": "2025-08-14",
+        "comments": "I also experienced a Manchester tram..."
+    },
+    {
+        "lngLat": [-0.116905, 51.559067],
+        "name": "T4 Seven Sisters",
+        "address": "https://maps.app.goo.gl/rmZZjJC1Qi5xqvLK6",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [-1.576905, 54.776154],
+        "name": "T4 Durham",
+        "address": "https://maps.app.goo.gl/QJYXh4GYuX845HS18",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [0.016836, 51.399948],
+        "name": "T4 Bromley",
+        "address": "https://maps.app.goo.gl/c5Ne3BYMmtvdffrK7",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [-0.097931, 51.492214],
+        "name": "T4 Elephant and Castle",
+        "address": "https://maps.app.goo.gl/os7SRNgS78wUiLre6",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [-0.114300, 51.464928],
+        "name": "T4 Brixton",
+        "address": "https://maps.app.goo.gl/osXgMbztip8KHNAJ7",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [-0.023961, 51.584176],
+        "name": "T4 Walthamstow",
+        "address": "https://maps.app.goo.gl/majJG1fECTCpXZ6U7",
+        "lastVisited": "2026-03-07",
+        "comments": ""
+    },
+    {
+        "lngLat": [-0.109275, 51.595855],
+        "name": "T4 Wood Green",
+        "address": "https://maps.app.goo.gl/mcinGsCQNLFKX9oP9",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [-0.075894, 51.545895],
+        "name": "T4 Dalston",
+        "address": "https://maps.app.goo.gl/GZq4FbQ5beqA67T79",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [-0.0587796, 51.5267598],
+        "name": "T4 Bethnal Green",
+        "address": "https://maps.app.goo.gl/6tnw7qpU2mhay9WM7",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [-0.2696676, 51.5072093],
+        "name": "T4 Acton",
+        "address": "https://maps.app.goo.gl/im4UqdTQZLvBXToUA",
+        "lastVisited": "2025-03-08",
+        "comments": "Used to be my local!"
+    },
+    {
+        "lngLat": [-0.1678403, 51.4615558],
+        "name": "T4 Clapham Junction",
+        "address": "https://maps.app.goo.gl/1DkuHZgBukEQNrgK9",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [-0.0547702, 51.5494127],
+        "name": "T4 Hackney",
+        "address": "jttps://maps.app.goo.gl/VpWiFwpcHqBMq5HH8",
+        "lastVisited": "2023-11-25",
+        "comments": ""
+    },
     {
         "lngLat": [-0.123897, 51.524182],
-        "name": "T4 Russell Square",
+        "name": "T4 Brunswick",
         "address": "https://maps.app.goo.gl/8G3PHY2nxNq9bEba7",
         "lastVisited": "2026-06-24",
+        "comments": "Old office :("
+    },
+    {
+        "lngLat": [-0.2517368, 51.5953116],
+        "name": "T4 Colindale",
+        "address": "https://maps.app.goo.gl/hZ2RGLmjULuWyPXV8",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [-0.747976, 52.041592],
+        "name": "T4 Milton Keynes",
+        "address": "https://maps.app.goo.gl/xyBdJMebBK9Fa3fGA",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [-1.469106, 53.3815884],
+        "name": "T4 Sheffield",
+        "address": "https://maps.app.goo.gl/n3esBobSykZusYEs6",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [-0.069856, 51.471678],
+        "name": "T4 Peckham",
+        "address": "https://maps.app.goo.gl/XCi5U6Dpf5VWo9qE9",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [-0.102265, 51.519923],
+        "name": "T4 Farringdon",
+        "address": "https://maps.app.goo.gl/dp17YsZd4ZzH9qAJA",
+        "lastVisited": "don't remember but definitely have been",
+        "comments": ""
+    },
+    {
+        "lngLat": [-0.1444707, 51.4817856],
+        "name": "T4 Battersea",
+        "address": "https://maps.app.goo.gl/Hwr1bc7yainor65U9",
+        "lastVisited": "August 2025",
+        "comments": ""
+    },
+    {
+        "lngLat": [-3.17518, 51.485326],
+        "name": "T4 Cardiff",
+        "address": "https://maps.app.goo.gl/bWDkHihk2BBYE4oY8",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [-0.1054908, 51.534378],
+        "name": "T4 Angel",
+        "address": "https://maps.app.goo.gl/pKsqoKCxNr2cpXjo9",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [0.028135, 51.462546],
+        "name": "T4 Kidbrooke",
+        "address": "https://maps.app.goo.gl/R7eNpq7Jgu82fuj3A",
+        "lastVisited": "",
         "comments": ""
     }
 ]
