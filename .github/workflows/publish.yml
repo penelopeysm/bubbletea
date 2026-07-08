@@ -24,7 +24,8 @@ jobs:
       - uses: actions/upload-pages-artifact@v5
         id: deployment
         with:
-          path: dist
+          # Trailing slash matters
+          path: dist/
 
   deploy:
     needs: build
