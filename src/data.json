@@ -249,7 +249,7 @@
         "name": "T4 Walthamstow",
         "address": "https://maps.app.goo.gl/majJG1fECTCpXZ6U7",
         "lastVisited": "2026-03-07",
-        "comments": ""
+        "comments": "The first time I came here I tried to order in Mandarin and the staff member had to tell me she didn't understand it. I was mortified! Since then I don't think I've ordered any bubble tea in Mandarin..."
     },
     {
         "lngLat": [-0.109275, 51.595855],
@@ -291,7 +291,7 @@
         "name": "T4 Hackney",
         "address": "jttps://maps.app.goo.gl/VpWiFwpcHqBMq5HH8",
         "lastVisited": "2023-11-25",
-        "comments": ""
+        "comments": "Came here after a flat viewing in Clapton."
     },
     {
         "lngLat": [-0.123897, 51.524182],
@@ -362,5 +362,164 @@
         "address": "https://maps.app.goo.gl/R7eNpq7Jgu82fuj3A",
         "lastVisited": "",
         "comments": ""
+    },
+
+    {
+        "lngLat": [-0.230622, 51.492679],
+        "name": "HEYTEA Hammersmith",
+        "address": "https://maps.app.goo.gl/gqW6chtehomo1HSj8",
+        "lastVisited": "some time in 2024",
+        "comments": "A bit of a disappointment NGL"
+    },
+    {
+        "lngLat": [-0.201791, 51.484725],
+        "name": "Panda Cha Tea",
+        "address": "https://maps.app.goo.gl/tqS2PHT2zhX1KviC9",
+        "lastVisited": "2025-03-01",
+        "comments": "I came here after sitting on sofas at the Darlings of Chelsea showroom in Parsons Green. I actually can't remember much! I think it was decent. I recall the staff being very friendly, which to be honest weirded me out a bit because I'm used to the very impersonal bubble tea shops!"
+    },
+    {
+        "lngLat": [-0.194512, 51.480516],
+        "name": "Chatime Fulham",
+        "address": "https://maps.app.goo.gl/gF4aukdqHMu8fW9q6",
+        "lastVisited": "2025-11-14",
+        "comments": "Came here after visiting Coach House Pianos nearby with Marie. Chatime is generally fine (although I prefer T4). This seems to be shut now though..."
+    },
+    {
+        "lngLat": [-0.194512, 51.480516],
+        "name": "Jen Tea Liverpool Street",
+        "address": "https://maps.app.goo.gl/wefARNjTzrjxs2DUA",
+        "lastVisited": "2025-08-21",
+        "comments": "Visited after doing the Summer Experience just next door. Honestly the shop looked decent but I don't think it was that good!"
+    },
+    {
+        "lngLat": [-0.009041, 51.543203],
+        "name": "NUTTEA Stratford",
+        "address": "https://maps.app.goo.gl/EPi8q9rMwqb9BbTt9",
+        "lastVisited": "2026-06-02",
+        "comments": "I only came here for the first time because T4 in Westfield Stratford was being refurbished. Turns out it's actually really good! It's vegan so the milk is replaced with various nut-derived milks. The pearls are good and I like that the almond milk actually gives it more flavour than the usual. Definitely recommend."
+    },
+    {
+        "lngLat": [-0.009041, 51.543203],
+        "name": "Frozen River",
+        "address": "https://maps.app.goo.gl/7gu9ZafZVt7d4mFV8",
+        "lastVisited": "2026-06-22",
+        "comments": "Wasn't really expecting too much but it was decent! It definitely does look a little bit run-down inside though..."
+    },
+    {
+        "lngLat": [-0.131933, 51.512154],
+        "name": "Milksha",
+        "address": "https://maps.app.goo.gl/ubyBa5iGTDfTE39y8",
+        "lastVisited": "2026-03-20",
+        "comments": "This is actually one of my favourite bubble tea shops anywhere, and I pretty much only ever get this in Chinatown. (I went here based on a Reddit recommendation...) They have golden honey pearls which are really nice, the consistency is good, the tea is good. Only thing is that the pearls are a bit sweet so definitely reduce the sugar on the tea!"
+    },
+    {
+        "lngLat": [-0.131443, 51.512479],
+        "name": "CoCo Chinatown",
+        "address": "https://maps.app.goo.gl/X7TmKzQwQStMdyFf6",
+        "lastVisited": "several years ago",
+        "comments": "This used to be my go-to in Chinatown, it was pretty good. It seems it's shut now though..."
+    },
+
+    {
+        "lngLat": [-1.257834, 51.752411],
+        "name": "T4 Oxford (closed)",
+        "address": "https://maps.app.goo.gl/cPrJagSYVskLu9dJ7",
+        "lastVisited": "Sometime Feb 2020",
+        "comments": "Opened in Feb 2020 and promptly closed due to the pandemic :(. I guess I am one of the few people who can claim to have been here though!"
+    },
+    {
+        "lngLat": [-1.260737, 51.754021],
+        "name": "Chatime Oxford (closed)",
+        "address": "https://maps.app.goo.gl/dvp392ktaayzLNaA7",
+        "lastVisited": "many years ago",
+        "comments": "This used to be the only decent bubble tea in Oxford for a long time!"
+    },
+    {
+        "lngLat": [-1.258352, 51.751692],
+        "name": "Yifang Oxford",
+        "address": "https://maps.app.goo.gl/CXpuvwfLAvuuk5g8A",
+        "lastVisited": "many years ago",
+        "comments": "I didn't like the pearls — too small and not chewy... They used to be on Queen Street, where this pin is, but then moved to New Inn Hall Street which is where the Google Maps address is."
+    },
+    {
+        "lngLat": [-1.256187, 51.751718],
+        "name": "Formosan Tea Bar",
+        "address": "https://maps.app.goo.gl/TgRhRN31p2P1qm326",
+        "lastVisited": "many years ago",
+        "comments": "Honestly a bit of a weird one. The tea itself was nice but I think it always felt too healthy! But also, my sugar intake has decreased over time (when I first came to the UK I used to get 75% sugar and nowadays I often get 0%) — so maybe now I might actually like it more?!"
+    },
+    {
+        "lngLat": [-1.256151, 51.753041],
+        "name": "Mooboo Oxford",
+        "address": "https://maps.app.goo.gl/UsMGucpBJ8N65JCf6",
+        "lastVisited": "many years ago",
+        "comments": "Right opposite my college! I think I only went once or twice though."
+    },
+    {
+        "lngLat": [-1.257348, 51.752551],
+        "name": "Coba",
+        "address": "https://maps.app.goo.gl/AfRvfpaun29TN1tq5",
+        "lastVisited": "many years ago",
+        "comments": "To be honest, I don't remember much about this one, but I don't really think it met my standards, which is probably why I don't remember it..."
+    },
+    {
+        "lngLat": [-1.251717, 51.752847],
+        "name": "Fantastea",
+        "address": "https://maps.app.goo.gl/CvhVRZr2p9iSPyK1A",
+        "lastVisited": "many years ago",
+        "comments": "When they first opened I thought it was pretty decent, but I feel like the quality of the bubble tea went down over time."
+    },
+    {
+        "lngLat": [-1.235164, 51.747119],
+        "name": "IN CHA",
+        "address": "https://maps.app.goo.gl/CvhVRZr2p9iSPyK1A",
+        "lastVisited": "many years ago",
+        "comments": "Was very hyped by some Asian people I knew... I think it was alright, roughly on par with T4 I'd say? But also I went very close to closing time so that may have affected the experience."
+    },
+
+    {
+        "lngLat": [-1.541822, 53.796454],
+        "name": "Half Sugar",
+        "address": "https://maps.app.goo.gl/3XcvBtK183PYBFpE8",
+        "lastVisited": "2024-08-03",
+        "comments": "This was the last thing Kat and I did when I visited Leeds for the Summer Experience and stayed with her. The bubble tea here was legitimately really good! Would definitely go back."
+    },
+    {
+        "lngLat": [-1.552136, 53.808442],
+        "name": "IUTEA",
+        "address": "https://maps.app.goo.gl/7ecwbSn4f8Jw4SNB6",
+        "lastVisited": "2026-03-24",
+        "comments": "Was with Kat and Nathan at the LIDA Careers Festival. The 4.9 rating on Google Maps made me think it would be good but actually it was a let down :("
+    },
+    {
+        "lngLat": [-2.240290, 53.477851],
+        "name": "OHAYO TEA",
+        "address": "https://maps.app.goo.gl/J8UAQyN4yMRXM8LH6",
+        "lastVisited": "2022-06-30",
+        "comments": "Plus/minus a day — I was here for an NMRDG meeting. The shop was really packed but I don't think I was particularly impressed by the bubble tea!"
+    },
+    {
+        "lngLat": [-3.191517, 55.952639],
+        "name": "The Magic Cup",
+        "address": "https://maps.app.goo.gl/8bDCsY5FdcpNcsM47",
+        "lastVisited": "2025-08-27",
+        "comments": "Met Martin S here and there weren't very many bubble tea options. It wasn't great (but then again I wasn't expecting much haha)."
+    },
+    {
+        "lngLat": [-1.105417, 50.795560],
+        "name": "Bubble Citea Portmsmouth",
+        "address": "https://maps.app.goo.gl/ckjghuR1Mn6Gjugt7",
+        "lastVisited": "2023-06-09",
+        "comments": "Stopped by on the way to the Isle of Wight for Caitlin's wedding. In general I'm highly sceptical of the shops that aren't overtly Chinese and this was no exception :(. Additionally I made the mistake of giving them my mobile number and wouldn't stop getting SMS spam for quite a while afterwards... oh well."
+    },
+
+
+    {
+        "lngLat": [0.026041, 51.593385],
+        "name": "Mooboo South Woodford",
+        "address": "https://maps.app.goo.gl/de4Rm2pXkRQKQGU77",
+        "lastVisited": "2026-05-18",
+        "comments": "It's not bad — the pearls are decent but I feel like I could sense the milk powder! T4 is still better imo."
     }
 ]

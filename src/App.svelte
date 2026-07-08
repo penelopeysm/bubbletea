@@ -1,8 +1,8 @@
 <script lang="ts">
     import { MapLibre, Marker, Popup } from "svelte-maplibre";
     import { LngLat } from "maplibre-gl";
-    const charingCross = new LngLat(-0.127641, 51.507478);
-    const defaultZoom = 11;
+    const defaultCentre = new LngLat(-1.5, 53.5);
+    const defaultZoom = 6;
     import { FontAwesomeIcon } from "@fortawesome/svelte-fontawesome";
     import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
     import { shops } from "./shops";
@@ -28,7 +28,7 @@
 <MapLibre
     style="https://api.maptiler.com/maps/dataviz-v4/style.json?key=AI9tRSBHilptTX23UJbv"
     standardControls
-    center={charingCross}
+    center={defaultCentre}
     zoom={defaultZoom}
 >
     {#snippet children({ map })}
