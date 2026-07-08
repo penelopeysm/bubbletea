@@ -56,8 +56,9 @@
         <p>
             Many of the descriptions have quite vague descriptions of quality.
             Personally, <i>most</i> of my rating is based on the tapioca pearls.
-            In some places they're too soft / mushy, and in some places they're too
-            hard.
+            Usually when I say something is 'bad' it's because the pearls are too
+            soft / mushy. Sometimes the tea itself is not so nice, e.g., if you can
+            tell that it's processed. But 95% of the time it's the pearls.
         </p>
 
         <b>How do you spot a good bubble tea shop?</b>
