@@ -1,4 +1,4 @@
-import rawShops from "./assets/shops.json";
+import rawShops from "./data.json";
 import { LngLat } from "maplibre-gl";
 
 interface RawShop {
@@ -13,16 +13,22 @@ export interface Shop {
     lngLat: LngLat;
     name: string;
     address: string;
-    lastVisited: Date | string;
+    // Date = known date
+    // String = unknown date but I have been there before
+    // null = never visited
+    lastVisited: Date | string | null;
     comments: string
 }
 
-function parseDate(dateString: string): Date | string {
+function parseDate(dateString: string): Date | string | null {
     // check if it's YYYY-MM-DD
     if (/^\d{4}-\d{2}-\d{2}$/.test(dateString)) {
         return new Date(dateString);
+    } else if (dateString === "") {
+        return null;
     } else {
         return dateString;
+
     }
 }
 

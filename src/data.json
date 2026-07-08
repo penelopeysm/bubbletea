@@ -1,0 +1,206 @@
+[
+    {
+        "lngLat": [-0.006427, 51.543343],
+        "name": "T4 Westfield Stratford",
+        "address": "https://maps.app.goo.gl/7aoV4gxnoxDmim5G7",
+        "lastVisited": "not sure",
+        "comments": ""
+    },
+    {
+        "lngLat": [-0.218414, 51.505633],
+        "name": "T4 Westfield Shepherd's Bush",
+        "address": "https://maps.app.goo.gl/4Uf7QxaCZVHd93CE7",
+        "lastVisited": "not sure",
+        "comments": ""
+    },
+    {
+        "lngLat": [-0.575242, 51.237938],
+        "name": "T4 Guildford",
+        "address": "https://maps.app.goo.gl/wpBfLtKq2xhoRGKj7",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [-1.510919, 52.408492],
+        "name": "T4 Coventry",
+        "address": "https://maps.app.goo.gl/S6egdCpKhzvGD8g29",
+        "lastVisited": "2025-09-08",
+        "comments": "Was in Coventry for RSECon 2025..."
+    },
+    {
+        "lngLat": [-2.588328, 51.458154],
+        "name": "T4 Bristol",
+        "address": "https://maps.app.goo.gl/RWHmv2JzgjdWBp1M9",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [-0.016489, 51.505508],
+        "name": "T4 Canary Wharf",
+        "address": "https://maps.app.goo.gl/AVcqEWAKoSneQCNS6",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [-1.083586, 53.958865],
+        "name": "T4 York",
+        "address": "https://maps.app.goo.gl/M24wPYrpjpmzNhVY6",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [0.9005544, 51.887303],
+        "name": "T4 Colchester",
+        "address": "https://maps.app.goo.gl/BQnBqvmegTEMMF469",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [-0.078578, 51.518856],
+        "name": "T4 Liverpool Street",
+        "address": "https://maps.app.goo.gl/fdtoNBWtLR7dqyWf8",
+        "lastVisited": "2026-04-23",
+        "comments": "I think I might be visiting this one a lot..."
+    },
+    {
+        "lngLat": [-0.102056, 51.376586],
+        "name": "T4 Croydon",
+        "address": "https://maps.app.goo.gl/Kj3DfuFPFvRuh1ja7",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [-0.27999, 51.560233],
+        "name": "T4 Wembley Park",
+        "address": "https://maps.app.goo.gl/W5GwYovAEZqo1wVZ8",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [-0.14337, 50.824241],
+        "name": "T4 Brighton",
+        "address": "https://maps.app.goo.gl/fB1oiLViZzNBtig66",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [-0.301406, 51.41239],
+        "name": "T4 Kingston",
+        "address": "https://maps.app.goo.gl/8DXjBZf85VLCz72P9",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [-0.206300, 51.517363],
+        "name": "T4 Notting Hill",
+        "address": "https://maps.app.goo.gl/Jjjm6qo3unj9KqfV9",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [-0.304973, 51.512913],
+        "name": "T4 Ealing",
+        "address": "https://maps.app.goo.gl/E2ZSXnGUR35UeYVh7",
+        "lastVisited": "2025-02-20",
+        "comments": ""
+    },
+    {
+        "lngLat": [-0.170828, 51.518469],
+        "name": "T4 Paddington",
+        "address": "https://maps.app.goo.gl/K62CuKWaLP51Njus6",
+        "lastVisited": "many times but can't remember",
+        "comments": "Used to be the 'local' T4 when commuting from Oxford..."
+    },
+    {
+        "lngLat": [-0.142888, 51.538741],
+        "name": "T4 Camden Town",
+        "address": "https://maps.app.goo.gl/CBMr9CZo1py3HuVU8",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [0.0281831, 51.5002205],
+        "name": "T4 Royal Wharf",
+        "address": "https://maps.app.goo.gl/fbWMw6gvBmcHjTqi8",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [-0.1939978, 51.3647016],
+        "name": "T4 Sutton",
+        "address": "https://maps.app.goo.gl/eauhqLoKeUjp1wMT6",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [0.12014, 52.206762],
+        "name": "T4 Cambridge",
+        "address": "https://maps.app.goo.gl/dncTUZEio5haZtD69",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [-0.138824, 51.524166],
+        "name": "T4 Warren Street",
+        "address": "https://maps.app.goo.gl/CWSZM1PZnmzXeMNY9",
+        "lastVisited": "2025-03-05",
+        "comments": ""
+    },
+    {
+        "lngLat": [-0.118778, 51.511304],
+        "name": "T4 Strand",
+        "address": "https://maps.app.goo.gl/eSrCgm4a64XpTwLw7",
+        "lastVisited": "2024-03-27",
+        "comments": ""
+    },
+    {
+        "lngLat": [-0.086519, 51.526121],
+        "name": "T4 Shoreditch",
+        "address": "https://maps.app.goo.gl/SiMHk8oLvjp1cZqC9",
+        "lastVisited": "2024-06-14",
+        "comments": ""
+    },
+    {
+        "lngLat": [-0.080886, 51.651895],
+        "name": "T4 Enfield",
+        "address": "https://maps.app.goo.gl/e7UD7595Gdfb6spw7",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [-0.111998, 51.501306],
+        "name": "T4 Waterloo",
+        "address": "https://maps.app.goo.gl/bjcFefZXmjhoy2eX8",
+        "lastVisited": "don't remember",
+        "comments": "but I do remember this was actually one of the few T4s that disappointed me :( maybe it was an off day"
+    },
+    {
+        "lngLat": [-0.0750393, 51.516048],
+        "name": "T4 Whitechapel",
+        "address": "https://maps.app.goo.gl/eBwZeXwf8R6vZ7SUA",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [-0.419312, 51.505923],
+        "name": "T4 Hayes",
+        "address": "https://maps.app.goo.gl/gHz2Zx5ytU18gPmH6",
+        "lastVisited": "",
+        "comments": ""
+    },
+    {
+        "lngLat": [-0.00971, 51.481194],
+        "name": "T4 Greenwich",
+        "address": "https://maps.app.goo.gl/eo3LrVnFnpqJVMYm7",
+        "lastVisited": "sometime August 2024",
+        "comments": ""
+    },
+
+    {
+        "lngLat": [-0.123897, 51.524182],
+        "name": "T4 Russell Square",
+        "address": "https://maps.app.goo.gl/8G3PHY2nxNq9bEba7",
+        "lastVisited": "2026-06-24",
+        "comments": ""
+    }
+]
