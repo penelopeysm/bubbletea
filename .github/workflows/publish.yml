@@ -20,12 +20,11 @@ jobs:
         with:
           version: 11
       - run: pnpm install
-      - run: pnpm build
+      - run: pnpm build --base bubbletea
       - uses: actions/upload-pages-artifact@v5
         id: deployment
         with:
-          # Trailing slash matters
-          path: dist/
+          path: dist
 
   deploy:
     needs: build
