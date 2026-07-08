@@ -8,15 +8,31 @@
     import { shops } from "./shops";
 
     const visitedCount = shops.filter((s) => s.lastVisited !== null).length;
+    const mostRecentlyVisited = shops
+        .filter((s) => s.lastVisited instanceof Date)
+        .sort(
+            (a, b) =>
+                (b.lastVisited as Date).getTime() -
+                (a.lastVisited as Date).getTime(),
+        )
+        .slice(0, 5);
 
-    function displayDateOrString(d: Date | string | null): string {
+    function displayDateOrString(
+        d: Date | string | null,
+        year: boolean,
+    ): string {
         if (d instanceof Date) {
             // "7 Mar 2025 (Sat)"
-            const day = d.toLocaleDateString("en-GB", {
-                day: "numeric",
-                month: "short",
-                year: "numeric",
-            });
+            const day = year
+                ? d.toLocaleDateString("en-GB", {
+                      day: "numeric",
+                      month: "short",
+                      year: "numeric",
+                  })
+                : d.toLocaleDateString("en-GB", {
+                      day: "numeric",
+                      month: "short",
+                  });
             const weekday = d.toLocaleDateString("en-GB", { weekday: "short" });
             return `${day} (${weekday})`;
         } else if (d === null) {
@@ -31,9 +47,9 @@
     <div class="sidebar">
         <h1>Bubble Tea Map</h1>
         <p>
-            This map collects bubble tea shops I've been to in the UK (current
-            count: <b>{visitedCount}</b>), plus a bunch of T4 shops I've not been to
-            which I <i>might</i> (but probably won't) check off one day.
+            This map collects bubble tea shops I've been to in the UK, plus a
+            bunch of T4 shops I've not been to which I <i>might</i> (but probably
+            won't) check off one day.
         </p>
 
         <p>
@@ -43,6 +59,17 @@
             common in London, and the experience is consistent, which makes it a
             good reliable source for a treat.
         </p>
+
+        <h2>Stats</h2>
+        <p>Number of shops visited: {visitedCount}</p>
+        <p>Most recently visited:</p>
+        <ul>
+            {#each mostRecentlyVisited as shop}
+                <li>
+                    {displayDateOrString(shop.lastVisited, false)} - {shop.name}
+                </li>
+            {/each}
+        </ul>
 
         <h2>FAQ</h2>
         <b>What's your standard order?</b>
@@ -75,6 +102,8 @@
         <b>What's better than T4?</b>
         <p>Not much really! I do rate Milksha in Chinatown higher.</p>
     </div>
+
+    <!-- Note: need to put a class on the map, or else svelte-maplibre injects a class that causes the map to take over 100vw 100vh. -->
     <MapLibre
         class="map"
         style="https://api.maptiler.com/maps/dataviz-v4/style.json?key=AI9tRSBHilptTX23UJbv"
@@ -118,6 +147,7 @@
                             <p>
                                 Last visit: {displayDateOrString(
                                     shop.lastVisited,
+                                    true,
                                 )}
                             </p>
                             {#if shop.comments}
