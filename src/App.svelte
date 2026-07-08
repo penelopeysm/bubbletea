@@ -5,7 +5,17 @@
     const defaultZoom = 6;
     import { FontAwesomeIcon } from "@fortawesome/svelte-fontawesome";
     import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
-    import { shops } from "./shops";
+    import { shops, type Shop } from "./shops";
+
+    let showVisited = $state(true);
+    let showUnvisited = $state(true);
+    let mapShops = $derived(
+        shops.filter(
+            (s: Shop) =>
+                (s.lastVisited === null && showUnvisited) ||
+                (s.lastVisited !== null && showVisited),
+        ),
+    );
 
     const visitedCount = shops.filter((s) => s.lastVisited !== null).length;
     const mostRecentlyVisited = shops
@@ -104,63 +114,83 @@
     </div>
 
     <!-- Note: need to put a class on the map, or else svelte-maplibre injects a class that causes the map to take over 100vw 100vh. -->
-    <MapLibre
-        class="map"
-        style="https://api.maptiler.com/maps/dataviz-v4/style.json?key=AI9tRSBHilptTX23UJbv"
-        standardControls
-        center={defaultCentre}
-        zoom={defaultZoom}
-    >
-        {#snippet children({ map })}
-            {#each shops as shop}
-                <Marker lngLat={shop.lngLat}>
-                    <span
-                        class={shop.lastVisited === null
-                            ? "marker"
-                            : "marker-visited"}
-                    >
-                        {shop.lastVisited === null ? "👀" : "🧋"}
-                    </span>
+    <div class="map-container">
+        <MapLibre
+            class="map"
+            style="https://api.maptiler.com/maps/dataviz-v4/style.json?key=AI9tRSBHilptTX23UJbv"
+            standardControls
+            center={defaultCentre}
+            zoom={defaultZoom}
+        >
+            {#snippet children({ map })}
+                {#each mapShops as shop}
+                    <Marker lngLat={shop.lngLat}>
+                        <span
+                            class={shop.lastVisited === null
+                                ? "marker"
+                                : "marker-visited"}
+                        >
+                            {shop.lastVisited === null ? "👀" : "🧋"}
+                        </span>
 
-                    <Popup
-                        offset={[0, -25]}
-                        onopen={() =>
-                            map.flyTo({
-                                center: shop.lngLat,
-                                zoom: Math.max(defaultZoom, map.getZoom()),
-                                speed: 0.3,
-                            })}
-                    >
-                        <div class="popup-content">
-                            <div class="popup-header">
-                                <h3>{shop.name}</h3>
-                                <span
-                                    ><a href={shop.address} target="_blank"
-                                        >Google Maps
-                                        <FontAwesomeIcon
-                                            icon={faArrowUpRightFromSquare}
-                                            size="1x"
-                                        />
-                                    </a></span
-                                >
-                            </div>
-                            <p>
-                                Last visit: {displayDateOrString(
-                                    shop.lastVisited,
-                                    true,
-                                )}
-                            </p>
-                            {#if shop.comments}
-                                <p class="popup-comments">
-                                    {shop.comments}
+                        <Popup
+                            offset={[0, -25]}
+                            onopen={() =>
+                                map.flyTo({
+                                    center: shop.lngLat,
+                                    zoom: Math.max(defaultZoom, map.getZoom()),
+                                    speed: 0.3,
+                                })}
+                        >
+                            <div class="popup-content">
+                                <div class="popup-header">
+                                    <h3>{shop.name}</h3>
+                                    <span
+                                        ><a href={shop.address} target="_blank"
+                                            >Google Maps
+                                            <FontAwesomeIcon
+                                                icon={faArrowUpRightFromSquare}
+                                                size="1x"
+                                            />
+                                        </a></span
+                                    >
+                                </div>
+                                <p>
+                                    Last visit: {displayDateOrString(
+                                        shop.lastVisited,
+                                        true,
+                                    )}
                                 </p>
-                            {/if}
-                        </div>
-                    </Popup>
-                </Marker>
-            {/each}
-        {/snippet}
-    </MapLibre>
+                                {#if shop.comments}
+                                    <p class="popup-comments">
+                                        {shop.comments}
+                                    </p>
+                                {/if}
+                            </div>
+                        </Popup>
+                    </Marker>
+                {/each}
+            {/snippet}
+        </MapLibre>
+        <div class="controls">
+            <div>
+                <input
+                    type="checkbox"
+                    id="show-visited"
+                    bind:checked={showVisited}
+                />
+                <label for="show-visited">Show visited 🧋</label>
+            </div>
+            <div>
+                <input
+                    type="checkbox"
+                    id="show-unvisited"
+                    bind:checked={showUnvisited}
+                />
+                <label for="show-unvisited">Show unvisited 👀</label>
+            </div>
+        </div>
+    </div>
 </main>
 
 <style>
@@ -185,12 +215,29 @@
         background-color: #f5e6d3;
         border-right: 2px solid #505050;
         overflow-y: auto;
+        position: relative;
+    }
+    div.controls {
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #f5e6d3;
+        border: 2px solid #505050;
+        border-radius: 5px;
+        padding: 5px 10px;
     }
 
+    div.map-container {
+        flex: 1;
+        height: 100%;
+        position: relative;
+    }
     :global(.map) {
         flex: 1;
         height: 100%;
     }
+
     :global(.maplibregl-popup-content) {
         padding: 8px 8px !important;
         border-radius: 5px;
