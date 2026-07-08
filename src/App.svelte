@@ -208,7 +208,11 @@
         flex-direction: row;
         height: 100vh;
         width: 100vw;
+        @media only screen and (max-width: 600px) {
+            flex-direction: column;
+        }
     }
+
     div.sidebar {
         width: 350px;
         padding: 0 10px;
@@ -216,7 +220,15 @@
         border-right: 2px solid #505050;
         overflow-y: auto;
         position: relative;
+
+        @media only screen and (max-width: 600px) {
+            width: 100%;
+            height: 200px;
+            border-right: none;
+            border-bottom: 2px solid #505050;
+        }
     }
+
     div.controls {
         position: absolute;
         top: 10px;
