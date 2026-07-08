@@ -7,6 +7,8 @@
     import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
     import { shops } from "./shops";
 
+    const visitedCount = shops.filter((s) => s.lastVisited !== null).length;
+
     function displayDateOrString(d: Date | string | null): string {
         if (d instanceof Date) {
             // "7 Mar 2025 (Sat)"
@@ -29,9 +31,9 @@
     <div class="sidebar">
         <h1>Bubble Tea Map</h1>
         <p>
-            This map collects bubble tea shops I've been to in the UK, plus a
-            bunch of T4 shops I've not been to which I <i>might</i> one day check
-            off.
+            This map collects bubble tea shops I've been to in the UK (current
+            count: <b>{visitedCount}</b>), plus a bunch of T4 shops I've not been to
+            which I <i>might</i> (but probably won't) check off one day.
         </p>
 
         <p>
