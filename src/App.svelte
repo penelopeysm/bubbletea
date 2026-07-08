@@ -111,6 +111,9 @@
 
         <b>What's better than T4?</b>
         <p>Not much really! I do rate Milksha in Chinatown higher.</p>
+
+        <b>Source code for this?</b>
+        <p>It's on <a href="https://github.com/penelopeysm/bubbletea" target="_blank">GitHub</a>!</p>
     </div>
 
     <!-- Note: need to put a class on the map, or else svelte-maplibre injects a class that causes the map to take over 100vw 100vh. -->
