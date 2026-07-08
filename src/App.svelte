@@ -37,10 +37,9 @@
         <p>
             If you can't tell, <a href="https://www.t4.co.uk/" target="_blank"
                 >T4</a
-            > is my go-to for bubble tea. I think the quality is good (not the absolute
-            best but I've rarely been disappointed), they're quite common in London,
-            and the experience is consistent, which makes it a good reliable source
-            for a treat.
+            > is my go-to for bubble tea. I think the quality is good, they're quite
+            common in London, and the experience is consistent, which makes it a
+            good reliable source for a treat.
         </p>
 
         <h2>FAQ</h2>
@@ -65,13 +64,13 @@
         <p>
             Usually if it looks Taiwanese I'm willing to give it a go. If it has
             a name that actually means something in English, it's <i>probably</i
-            > not right. Also, the menu shouldn't look too colourful.
+            >
+            not right. Also, the menu shouldn't look <i>too</i> colourful... that's
+            usually a gimmick.
         </p>
 
         <b>What's better than T4?</b>
-        <p>
-            Not much really! I do rate Milksha in Chinatown higher.
-        </p>
+        <p>Not much really! I do rate Milksha in Chinatown higher.</p>
     </div>
     <MapLibre
         class="map"
