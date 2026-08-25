@@ -3,7 +3,7 @@
         "lngLat": [-0.006427, 51.543343],
         "name": "T4 Westfield Stratford",
         "address": "https://maps.app.goo.gl/7aoV4gxnoxDmim5G7",
-        "lastVisited": "not sure",
+        "lastVisited": "2026-08-07",
         "comments": ""
     },
     {
@@ -353,8 +353,8 @@
         "lngLat": [-0.1054908, 51.534378],
         "name": "T4 Angel",
         "address": "https://maps.app.goo.gl/pKsqoKCxNr2cpXjo9",
-        "lastVisited": "",
-        "comments": ""
+        "lastVisited": "2026-08-09",
+        "comments": "With Rosie!"
     },
     {
         "lngLat": [0.028135, 51.462546],
@@ -419,6 +419,13 @@
         "address": "https://maps.app.goo.gl/X7TmKzQwQStMdyFf6",
         "lastVisited": "several years ago",
         "comments": "This used to be my go-to in Chinatown, it was pretty good. It seems it's shut now though..."
+    },
+    {
+        "lngLat": [-0.074126, 51.518281],
+        "name": "Hydor",
+        "address": "https://maps.app.goo.gl/CGSkQ9AxqnL7i6JfA",
+        "lastVisited": "2026-08-24",
+        "comments": "Pearls were too soft imo"
     },
 
     {
